@@ -1,0 +1,14 @@
+.container {
+  margin: 10px;
+  background-color: var(--orange);
+  display: flex;
+  column-gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.divItem {
+  background-color: var(--purple);
+  max-width: 300px;
+  height: fit-content;
+}

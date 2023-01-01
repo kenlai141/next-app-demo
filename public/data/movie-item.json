@@ -1,0 +1,110 @@
+[
+  {
+    "id": "71634175-7f2a-471d-a52f-9cf5c3a4e10d",
+    "name": "ligula",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "price": "1233.22",
+    "pic": "/img/movies/MV5BNjBiZjc3YzItYWQ0Ni00YjZlLWFjYTAtMTBiNzM5ZmMxOGExXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+    "duration": 157,
+    "rating": 2.5
+  },
+  {
+    "id": "d35cadbe-f525-43a4-b3c5-11aab2e6e7a7",
+    "name": "convallis",
+    "desc": "Quisque vel leo in est ultrices viverra.",
+    "price": "675.23",
+    "pic": "/img/movies/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_FMjpg_UX1000_.jpg",
+    "duration": 75,
+    "rating": 2.5
+  },
+  {
+    "id": "e0ce896b-cbdd-4185-bea3-b809015f261e",
+    "name": "magna",
+    "desc": "Phasellus maximus nibh vel ex porttitor lacinia.",
+    "price": "165.43",
+    "pic": "/img/movies/MV5BOGM4Njk0MWQtODk2NS00NDU2LTg5YzctOGYyZDM0MzUxMzRmXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+    "duration": 83,
+    "rating": 2.5
+  },
+  {
+    "id": "9ee4ce5d-6b20-4aae-99bf-2f44a4798426",
+    "name": "magna",
+    "desc": "Nam tristique lacus facilisis ullamcorper pharetra.",
+    "price": "68.84",
+    "pic": "/img/movies/MV5BYzMzNTJjYmMtZTkxNS00MjI4LWI3YmQtOTQ4MDZjZDJlZjQyXkEyXkFqcGdeQXVyNjc0NzQzNTM@._V1_.jpg",
+    "duration": 115,
+    "rating": 2.5
+  },
+  {
+    "id": "634305d4-4597-48f9-92e1-2cdc066fff00",
+    "name": "magna",
+    "desc": "Aliquam vestibulum neque vel nisi pulvinar luctus.",
+    "price": "21.13",
+    "pic": "/img/movies/MV5BZDdjZjM1YWItNWRmOS00OTEzLWJmYjAtOGQzNTAyNmEwNDhjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+    "duration": 172,
+    "rating": 2.5
+  },
+  {
+    "id": "49ac89b7-a8ae-42ba-81cc-1e429381c756",
+    "name": "nec",
+    "desc": "Donec ornare libero a mauris gravida tempor.",
+    "price": "105.42",
+    "pic": "/img/movies/MV5BZjBlMjIxN2ItNTMyNi00NDk5LWFhMzEtNzdiODE0Y2M4MWI2XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+    "duration": 81,
+    "rating": 2.5
+  },
+  {
+    "id": "800ba193-cf67-4ec3-8058-fc5b99cac159",
+    "name": "augue",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "price": "1233.22",
+    "pic": "/img/movies/MV5BNjBiZjc3YzItYWQ0Ni00YjZlLWFjYTAtMTBiNzM5ZmMxOGExXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+    "duration": 91,
+    "rating": 2.5
+  },
+  {
+    "id": "62812b43-3347-4b3e-accb-bd24ab7c6f91",
+    "name": "varius",
+    "desc": "Quisque vel leo in est ultrices viverra.",
+    "price": "675.23",
+    "pic": "/img/movies/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_FMjpg_UX1000_.jpg",
+    "duration": 95,
+    "rating": 2.5
+  },
+  {
+    "id": "f74c1c40-2510-4155-9a94-04655b02881d",
+    "name": "finibus",
+    "desc": "Phasellus maximus nibh vel ex porttitor lacinia.",
+    "price": "165.43",
+    "pic": "/img/movies/MV5BOGM4Njk0MWQtODk2NS00NDU2LTg5YzctOGYyZDM0MzUxMzRmXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+    "duration": 125,
+    "rating": 2.5
+  },
+  {
+    "id": "5978759d-e58c-487d-ae4a-78bc28f7b2fd",
+    "name": "dictum",
+    "desc": "Nam tristique lacus facilisis ullamcorper pharetra.",
+    "price": "68.84",
+    "pic": "/img/movies/MV5BYzMzNTJjYmMtZTkxNS00MjI4LWI3YmQtOTQ4MDZjZDJlZjQyXkEyXkFqcGdeQXVyNjc0NzQzNTM@._V1_.jpg",
+    "duration": 73,
+    "rating": 2.5
+  },
+  {
+    "id": "04474391-b4ce-49d6-9b01-7cfff0197945",
+    "name": "penatibus",
+    "desc": "Aliquam vestibulum neque vel nisi pulvinar luctus.",
+    "price": "21.13",
+    "pic": "/img/movies/MV5BZDdjZjM1YWItNWRmOS00OTEzLWJmYjAtOGQzNTAyNmEwNDhjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+    "duration": 156,
+    "rating": 2.5
+  },
+  {
+    "id": "fb8bc1a3-510f-46a8-a57d-6550b5a7bf35",
+    "name": "parturient",
+    "desc": "Donec ornare libero a mauris gravida tempor.",
+    "price": "105.42",
+    "pic": "/img/movies/MV5BZjBlMjIxN2ItNTMyNi00NDk5LWFhMzEtNzdiODE0Y2M4MWI2XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+    "duration": 108,
+    "rating": 2.5
+  }
+]

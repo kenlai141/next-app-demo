@@ -1,0 +1,31 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: block;
+}
+
+.formLabel {
+    padding: 4px;
+}
+
+.sendCodeBtn {
+    width: 10em;
+    padding: 2px;
+}
+
+.formGroup {
+    padding: 20px;
+}
+
+.formGroup > * {
+    margin: 20px;
+}
+
+.formGroup > button,
+.formGroup > input {
+    height: 3em;
+    border-radius: 0.5em;
+}
