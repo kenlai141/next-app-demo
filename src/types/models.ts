@@ -26,4 +26,5 @@ export interface IComment {
   id: string;
   user: string;
   comment: string;
+  time: string;
 }

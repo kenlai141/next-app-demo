@@ -7,6 +7,7 @@ import useSWR from 'swr';
 import Image from '@components/Image/Image';
 import Comment from './components/Comment';
 import { IComment, IDescription, IMovie } from '@local-types/models';
+import CommentInputArea from './components/CommentInputArea';
 
 enum DataType {
   MOVIE = 'MOVIE',
@@ -55,6 +56,24 @@ const Index = (props: any) => {
 
   const { error, isLoading } = useSWR([DataType.MOVIE, DataType.COMMENT], fetcher);
 
+  const handleSubmitComment = (textAreaEl: HTMLTextAreaElement) => {
+    const comment = textAreaEl.value;
+    textAreaEl.value = '';
+
+    setCommentItems((prev) => {
+      const newId = prev[prev.length - 1].id + 1;
+      return [
+        ...prev,
+        {
+          id: newId,
+          user: 'anonymous_user',
+          comment,
+          time: new Date().toISOString(),
+        },
+      ];
+    });
+  };
+
   return (
     <AppLayout>
       <Box style={{ padding: '16px 8px 16px 8px' }}>
@@ -80,6 +99,13 @@ const Index = (props: any) => {
       </Box>
       <Box style={{ padding: '24px 0' }}>
         <Comment commentItems={commentItems} />
+      </Box>
+      <Box style={{ padding: '32px 0 16px 0', width: '100%' }}>
+        <CommentInputArea
+          width={'100%'}
+          height={'120px'}
+          onSubmit={handleSubmitComment}
+        ></CommentInputArea>
       </Box>
     </AppLayout>
   );

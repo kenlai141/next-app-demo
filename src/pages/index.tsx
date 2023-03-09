@@ -25,6 +25,9 @@ export default function Home() {
                 <li>
                   <Link href="/marketplace">/marketplace</Link>
                 </li>
+                <li>
+                  <Link href="/login">/login</Link>
+                </li>
               </ul>
             </div>
             <div className={styles.indexBlock}>
@@ -41,6 +44,9 @@ export default function Home() {
                 </li>
                 <li>
                   <Link href="/layout-demo">/layout-demo</Link>
+                </li>
+                <li>
+                  <Link href="/lifecycle">/lifecycle</Link>
                 </li>
                 <li>
                   <Link href="/mui-demo">/mui-demo</Link>

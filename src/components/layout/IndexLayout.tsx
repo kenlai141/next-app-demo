@@ -1,6 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
-import { Container } from '@mui/material';
+import { Container, Typography } from '@mui/material';
+import Link from 'next/link';
+import styles from './IndexLayout.module.css';
 
 const IndexLayout = ({ children }: any) => {
   return (
@@ -15,13 +17,16 @@ const IndexLayout = ({ children }: any) => {
       <hr />
       <footer>
         <Container style={{ padding: '1rem 0' }}>
-          <span
-            style={{
-              fontFamily: 'Roboto',
-            }}
-          >
-            copyright XXX Inc.
-          </span>
+          <Typography variant="body2" color="textSecondary">
+            &copy; {new Date().getFullYear()} XXX Company Ltd | All Rights Reserved |{' '}
+            <Link href="#" className={styles.link}>
+              Terms and Conditions
+            </Link>{' '}
+            |{' '}
+            <Link href="#" className={styles.link}>
+              Privacy Policy
+            </Link>
+          </Typography>
         </Container>
       </footer>
     </>
