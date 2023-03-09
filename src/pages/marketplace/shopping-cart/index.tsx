@@ -1,7 +1,6 @@
 import AppLayout from '@components/layout/AppLayout';
 import {
   Box,
-  Button,
   Card,
   CardActionArea,
   CardMedia,
@@ -21,12 +20,11 @@ import { IMovie, IPurchaseItem } from 'types/models';
 import { useSelector } from 'react-redux';
 import { RootState } from '@store/index';
 import { toHKDString } from '@utils/formatString';
-import Dialog from '@components/Dialog/CustomDialog';
+import CheckoutSection from './components/CheckoutSection';
 
 const Index = (props: any) => {
   const headers = ['Item', 'Description', 'Price', 'Qty', 'Subtotal'];
   const [cartItems, setCartItems] = useState<IPurchaseItem[]>([]);
-  const [isDialogOpen, setDialogOpen] = useState<boolean>(false);
   const cartItemsInState = useSelector((state: RootState) => state.shoppingCart.items);
 
   const enumerateItems = (movies: IMovie[]): IPurchaseItem[] => {
@@ -54,7 +52,7 @@ const Index = (props: any) => {
         const res = enumerateItems(data);
         setCartItems(res);
       });
-  const { error, isLoading } = useSWR('/data/movie-item.json', fetcher);
+  const { error, isLoading } = useSWR('/next-app-demo/data/movie-item.json', fetcher);
 
   const handleChange = (id: string, newQty: number) => {
     if (newQty === 0)
@@ -72,14 +70,6 @@ const Index = (props: any) => {
   const calculateTotal = useCallback(() => {
     return _.sumBy(cartItems, (item: IPurchaseItem) => Number(item.price) * item.qty);
   }, [cartItems]);
-
-  const openCheckoutDialog = () => {
-    setDialogOpen(true);
-  };
-
-  const handleDialogClose = (action: any) => {
-    setDialogOpen(false);
-  };
 
   return (
     <AppLayout>
@@ -139,31 +129,7 @@ const Index = (props: any) => {
               </TableBody>
             </Table>
           </Box>
-          <Box
-            style={{
-              flexGrow: 0,
-              backgroundColor: '#AAAAAA',
-              height: '420px',
-              width: '200px',
-              textAlign: 'center',
-            }}
-          >
-            <Typography variant="h5" style={{ padding: '20px 30px' }}>
-              Total
-            </Typography>
-            <Typography variant="body1" style={{ padding: '20px 20px' }}>
-              {toHKDString(calculateTotal())}
-            </Typography>
-            <Button variant="contained" onClick={openCheckoutDialog}>
-              Check out
-            </Button>
-            <Dialog
-              content={'Are you going to checkout?'}
-              onClose={handleDialogClose}
-              open={isDialogOpen}
-              title={'Check Out'}
-            />
-          </Box>
+          <CheckoutSection items={cartItems} totalAmount={toHKDString(calculateTotal())} />
         </Stack>
       </div>
     </AppLayout>
