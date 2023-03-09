@@ -4,7 +4,7 @@ const CustomImage = (props: any) => {
   let { src, ...rest } = props;
 
   if (!src) {
-    src = '/img/empty.jpg';
+    src = '/next-app-demo/img/empty.jpg';
   }
 
   rest = {

@@ -13,7 +13,11 @@ type TPromo = {
 const Index = (props: any) => {
   const fetcher: Fetcher<TPromo[]> = (input: RequestInfo | URL, init?: RequestInit) =>
     fetch(input, init).then((res) => res.json());
-  const { data: promos = [], error, isLoading } = useSWR('/data/carousel-movie.json', fetcher);
+  const {
+    data: promos = [],
+    error,
+    isLoading,
+  } = useSWR('/next-app-demo/data/carousel-movie.json', fetcher);
 
   return (
     <AppLayout>

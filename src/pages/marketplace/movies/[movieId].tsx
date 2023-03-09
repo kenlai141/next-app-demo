@@ -42,8 +42,11 @@ const Index = (props: any) => {
 
   const fetcher: (params: DataType[]) => Promise<void> = async (params: DataType[]) => {
     const requests = {
-      MOVIE: { url: '/data/movie-item.json', callback: renderMovieItem },
-      COMMENT: { url: '/data/comment-item.json', callback: (data: any) => setCommentItems(data) },
+      MOVIE: { url: '/next-app-demo/data/movie-item.json', callback: renderMovieItem },
+      COMMENT: {
+        url: '/next-app-demo/data/comment-item.json',
+        callback: (data: any) => setCommentItems(data),
+      },
     };
 
     const f = (url: string, cb: (data: any) => void) =>

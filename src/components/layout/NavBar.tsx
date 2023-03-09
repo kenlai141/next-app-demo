@@ -57,7 +57,7 @@ const Index = ({ pages = [], settings = [] }: { pages: string[]; settings: strin
             variant="h6"
             noWrap
             component="a"
-            href="/"
+            href="/next-app-demo"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -149,7 +149,7 @@ const Index = ({ pages = [], settings = [] }: { pages: string[]; settings: strin
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/img/profile.jpg" />
+                <Avatar alt="Remy Sharp" src="/next-app-demo/img/profile.jpg" />
               </IconButton>
             </Tooltip>
             <Menu

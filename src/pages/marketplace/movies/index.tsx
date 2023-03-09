@@ -25,7 +25,7 @@ const Index = (props: any) => {
 
   const fetcher: Fetcher<IMovie[]> = (input: RequestInfo | URL, init?: RequestInit) =>
     fetch(input, init).then((res) => res.json());
-  const { data = [], error, isLoading } = useSWR('/data/movie-item.json', fetcher);
+  const { data = [], error, isLoading } = useSWR('/next-app-demo/data/movie-item.json', fetcher);
 
   const handleClickOnImage = (e: any) => {
     const btn = e.currentTarget as HTMLButtonElement;

@@ -2,6 +2,7 @@
 const path = require('path');
 
 const nextConfig = {
+  basePath: '/next-app-demo',
   images: {
     unoptimized: true,
   },

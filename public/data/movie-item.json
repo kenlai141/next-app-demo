@@ -4,7 +4,7 @@
     "name": "ligula",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "price": "1233.22",
-    "pic": "/img/movies/MV5BNjBiZjc3YzItYWQ0Ni00YjZlLWFjYTAtMTBiNzM5ZmMxOGExXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+    "pic": "/next-app-demo/img/movies/MV5BNjBiZjc3YzItYWQ0Ni00YjZlLWFjYTAtMTBiNzM5ZmMxOGExXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
     "duration": 157,
     "rating": 2.5
   },
@@ -13,7 +13,7 @@
     "name": "convallis",
     "desc": "Quisque vel leo in est ultrices viverra.",
     "price": "675.23",
-    "pic": "/img/movies/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_FMjpg_UX1000_.jpg",
+    "pic": "/next-app-demo/img/movies/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_FMjpg_UX1000_.jpg",
     "duration": 75,
     "rating": 2.5
   },
@@ -22,7 +22,7 @@
     "name": "magna",
     "desc": "Phasellus maximus nibh vel ex porttitor lacinia.",
     "price": "165.43",
-    "pic": "/img/movies/MV5BOGM4Njk0MWQtODk2NS00NDU2LTg5YzctOGYyZDM0MzUxMzRmXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+    "pic": "/next-app-demo/img/movies/MV5BOGM4Njk0MWQtODk2NS00NDU2LTg5YzctOGYyZDM0MzUxMzRmXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
     "duration": 83,
     "rating": 2.5
   },
@@ -31,7 +31,7 @@
     "name": "magna",
     "desc": "Nam tristique lacus facilisis ullamcorper pharetra.",
     "price": "68.84",
-    "pic": "/img/movies/MV5BYzMzNTJjYmMtZTkxNS00MjI4LWI3YmQtOTQ4MDZjZDJlZjQyXkEyXkFqcGdeQXVyNjc0NzQzNTM@._V1_.jpg",
+    "pic": "/next-app-demo/img/movies/MV5BYzMzNTJjYmMtZTkxNS00MjI4LWI3YmQtOTQ4MDZjZDJlZjQyXkEyXkFqcGdeQXVyNjc0NzQzNTM@._V1_.jpg",
     "duration": 115,
     "rating": 2.5
   },
@@ -40,7 +40,7 @@
     "name": "magna",
     "desc": "Aliquam vestibulum neque vel nisi pulvinar luctus.",
     "price": "21.13",
-    "pic": "/img/movies/MV5BZDdjZjM1YWItNWRmOS00OTEzLWJmYjAtOGQzNTAyNmEwNDhjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+    "pic": "/next-app-demo/img/movies/MV5BZDdjZjM1YWItNWRmOS00OTEzLWJmYjAtOGQzNTAyNmEwNDhjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
     "duration": 172,
     "rating": 2.5
   },
@@ -49,7 +49,7 @@
     "name": "nec",
     "desc": "Donec ornare libero a mauris gravida tempor.",
     "price": "105.42",
-    "pic": "/img/movies/MV5BZjBlMjIxN2ItNTMyNi00NDk5LWFhMzEtNzdiODE0Y2M4MWI2XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+    "pic": "/next-app-demo/img/movies/MV5BZjBlMjIxN2ItNTMyNi00NDk5LWFhMzEtNzdiODE0Y2M4MWI2XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
     "duration": 81,
     "rating": 2.5
   },
@@ -58,7 +58,7 @@
     "name": "augue",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "price": "1233.22",
-    "pic": "/img/movies/MV5BNjBiZjc3YzItYWQ0Ni00YjZlLWFjYTAtMTBiNzM5ZmMxOGExXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+    "pic": "/next-app-demo/img/movies/MV5BNjBiZjc3YzItYWQ0Ni00YjZlLWFjYTAtMTBiNzM5ZmMxOGExXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
     "duration": 91,
     "rating": 2.5
   },
@@ -67,7 +67,7 @@
     "name": "varius",
     "desc": "Quisque vel leo in est ultrices viverra.",
     "price": "675.23",
-    "pic": "/img/movies/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_FMjpg_UX1000_.jpg",
+    "pic": "/next-app-demo/img/movies/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_FMjpg_UX1000_.jpg",
     "duration": 95,
     "rating": 2.5
   },
@@ -76,7 +76,7 @@
     "name": "finibus",
     "desc": "Phasellus maximus nibh vel ex porttitor lacinia.",
     "price": "165.43",
-    "pic": "/img/movies/MV5BOGM4Njk0MWQtODk2NS00NDU2LTg5YzctOGYyZDM0MzUxMzRmXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+    "pic": "/next-app-demo/img/movies/MV5BOGM4Njk0MWQtODk2NS00NDU2LTg5YzctOGYyZDM0MzUxMzRmXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
     "duration": 125,
     "rating": 2.5
   },
@@ -85,7 +85,7 @@
     "name": "dictum",
     "desc": "Nam tristique lacus facilisis ullamcorper pharetra.",
     "price": "68.84",
-    "pic": "/img/movies/MV5BYzMzNTJjYmMtZTkxNS00MjI4LWI3YmQtOTQ4MDZjZDJlZjQyXkEyXkFqcGdeQXVyNjc0NzQzNTM@._V1_.jpg",
+    "pic": "/next-app-demo/img/movies/MV5BYzMzNTJjYmMtZTkxNS00MjI4LWI3YmQtOTQ4MDZjZDJlZjQyXkEyXkFqcGdeQXVyNjc0NzQzNTM@._V1_.jpg",
     "duration": 73,
     "rating": 2.5
   },
@@ -94,7 +94,7 @@
     "name": "penatibus",
     "desc": "Aliquam vestibulum neque vel nisi pulvinar luctus.",
     "price": "21.13",
-    "pic": "/img/movies/MV5BZDdjZjM1YWItNWRmOS00OTEzLWJmYjAtOGQzNTAyNmEwNDhjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+    "pic": "/next-app-demo/img/movies/MV5BZDdjZjM1YWItNWRmOS00OTEzLWJmYjAtOGQzNTAyNmEwNDhjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
     "duration": 156,
     "rating": 2.5
   },
@@ -103,7 +103,7 @@
     "name": "parturient",
     "desc": "Donec ornare libero a mauris gravida tempor.",
     "price": "105.42",
-    "pic": "/img/movies/MV5BZjBlMjIxN2ItNTMyNi00NDk5LWFhMzEtNzdiODE0Y2M4MWI2XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+    "pic": "/next-app-demo/img/movies/MV5BZjBlMjIxN2ItNTMyNi00NDk5LWFhMzEtNzdiODE0Y2M4MWI2XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
     "duration": 108,
     "rating": 2.5
   }
