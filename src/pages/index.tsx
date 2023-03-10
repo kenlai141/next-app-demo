@@ -12,10 +12,10 @@ export default function Home() {
         <main className={styles.main2}>
           <div className={styles.description2}>
             <div className={styles.indexBlock}>
-              <h2>Original root</h2>
+              <h2>Source code of this page</h2>
               <ul>
                 <li>
-                  <Link href="/root">/root</Link>
+                  <Link href="https://github.com/kenlai141/next-app-demo">source</Link>
                 </li>
               </ul>
             </div>
