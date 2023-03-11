@@ -34,9 +34,10 @@ const SearchBar = (props: any) => {
           style={{ width: '100%' }}
           value={keyword}
           onChange={handleTextInput}
+          autoFocus
         />
       </div>
-      <Button variant="contained" onClick={handleSubmit} autoFocus>
+      <Button variant="contained" onClick={handleSubmit}>
         Search
       </Button>
     </Stack>

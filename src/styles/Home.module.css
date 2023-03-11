@@ -309,3 +309,7 @@
     transform: rotate(0deg);
   }
 }
+
+.techStackIcon {
+  margin: 8px
+}
