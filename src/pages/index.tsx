@@ -1,4 +1,3 @@
-import { Inter } from '@next/font/google';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import IndexLayout from '@components/layout/IndexLayout';
@@ -14,8 +13,6 @@ import NestIcon from '@components/Icon/nestjs.svg';
 import VueIcon from '@components/Icon/vue-js-1.svg';
 import K8sIcon from '@components/Icon/kubernetes-svgrepo-com.svg';
 import DockerIcon from '@components/Icon/docker.svg';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
