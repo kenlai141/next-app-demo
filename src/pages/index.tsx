@@ -3,7 +3,7 @@ import Link from 'next/link';
 import IndexLayout from '@components/layout/IndexLayout';
 import { Box, Stack, SvgIcon } from '@mui/material';
 import NodeJsIcon from '@components/Icon/Node-logo.svg';
-import PythonIcon from '@components/Icon/Python-5.svg';
+import PythonIcon from '@components/Icon/python-5.svg';
 import SpringBootIcon from '@components/Icon/spring-icon.svg';
 import TypescriptIcon from '@components/Icon/typescript.svg';
 import AwsIcon from '@components/Icon/aws-svgrepo-com.svg';
